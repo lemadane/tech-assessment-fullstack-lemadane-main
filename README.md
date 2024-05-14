@@ -22,7 +22,8 @@ npx nx run frontend:serve
 
 ### - This is done, used: (see sreenshots on screenshots folder) 
  - JWT for access-token & refresh-token,
- - Prisma for database connection & management,
+ - Prisma ORM for database connection & management,
+ - SQLite for the database (for demo)
  - Express.js middleware pattern
  - bcrypt for password hashing 
 
