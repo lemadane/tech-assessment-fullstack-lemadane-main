@@ -20,6 +20,12 @@ npx nx run frontend:serve
 - Implement a simple login page (username, password). NO NEED to create registration, forgot password, and other authentication flows.
 - Since there is no registration flow, predefine at least 2 users with different roles on the database(Editor and Viewer).
 
+#### This is done, used: (see sreenshots on screenshots folder) 
+ - JWT for access-token & refresh-token,
+ - Prisma for database connection & management,
+ - Express.js middleware patter
+ - bcrypt for password hashing 
+
 ### Dashboard
 - This is the main page after the user is authenticated.
 - Use any 3rd party API to retrieve weather data.
