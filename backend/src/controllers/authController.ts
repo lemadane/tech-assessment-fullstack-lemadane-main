@@ -19,7 +19,7 @@ authController
       if (!user) {
         throw { message: 'Invalid username or password', status: 400 }
       }
-      const match = hashCompare(req.body.password, user.password)
+      const match = await hashCompare(req.body.password, user.password)
       if (!match) {
         throw { message: 'Invalid username or password', status: 400 }
       }

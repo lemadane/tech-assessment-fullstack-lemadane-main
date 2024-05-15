@@ -7,8 +7,8 @@ export async function hash(text: string) {
   return await bcrypt.hash(text, saltRounds)
 }
 
-export async function hashCompare(text: string, hash: string) {
-  return await bcrypt.compare(text, hash)
+export async function hashCompare(text: string, hashed: string) {
+  return await bcrypt.compare(text, hashed)
 }
 
 export async function token() {
