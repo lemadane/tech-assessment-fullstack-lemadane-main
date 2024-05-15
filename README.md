@@ -25,7 +25,8 @@ npx nx run frontend:serve
  - Prisma ORM for database connection & management,
  - SQLite for the database (for demo)
  - Express.js middleware pattern
- - bcrypt for password hashing 
+ - bcrypt for password hashing
+ - Access and refresh tokens are both working and expiring
 
 ### Dashboard
 - This is the main page after the user is authenticated.
@@ -38,7 +39,8 @@ npx nx run frontend:serve
  - receives access-token and refresh-token upon successful login
  - access-token and refresh token is kept in a Context API (LoginContext)
  - City search is working
- - Weather aquisition per city from weather API is wokring 
+ - Weather aquisition per city from weather API is wokring
+ - Cors applied at the backend
 
 ### Add/Remove Notes
 - Users can click on a weather item, you can redirect the user to another page or use a modal to show the notes.
